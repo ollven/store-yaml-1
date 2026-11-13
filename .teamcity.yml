@@ -4,3 +4,8 @@ jobs:
     steps:
       - type: script
         script-content: cat README.md
+  Job2:
+    name: Job 2
+    steps:
+      - type: script
+        script-content: ls
